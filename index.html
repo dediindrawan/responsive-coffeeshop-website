@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Coffeebeans</title>
+  <!-- basic link for css -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- cdn link icon font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- wrapper-navbar start -->
+  <header class="wrapper-navbar">
+    <!-- brand-navbar start -->
+    <div class="brand-navbar">
+      <a href="#"><img src="img/brand-logo.png" alt="brand-logo" /></a>
+    </div>
+    <!-- brand-navbar end -->
+    <!-- nav-link start -->
+    <nav class="nav-link">
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#menu">menu</a></li>
+        <li><a href="#products">products</a></li>
+        <li><a href="#review">review</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="#blogs">blogs</a></li>
+      </ul>
+    </nav>
+    <!-- nav-link end -->
+    <!-- icon-navbar start -->
+    <div class="icon-navbar">
+      <!-- icon-search & search-box start -->
+      <div class="icon-search-navbar">
+        <input type="checkbox" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <div class="search-box">
+          <input type="search" placeholder="Search" />
+          <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+      <!-- icon-search & search-box end -->
+      <!-- icon-cart-navbar & cart-box start -->
+      <div class="icon-cart-navbar">
+        <input type="checkbox" />
+        <i class="fa-solid fa-cart-shopping"></i>
+        <div class="cart-box">
+          <div class="cart-container">
+            <div class="cart-list">
+              <figure class="cart-item">
+                <img src="img/list-1.jpg" alt="Item Image" />
+              </figure>
+              <figcaption class="cart-detail">
+                <p>cart item 01</p>
+                <p>idr. 115k</p>
+              </figcaption>
+              <div class="icon-remove-x" title="Remove Item">
+                <button type="submit">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+            </div>
+            <div class="cart-list">
+              <figure class="cart-item">
+                <img src="img/list-2.jpg" alt="Item Image" />
+              </figure>
+              <figcaption class="cart-detail">
+                <p>cart item 02</p>
+                <p>idr. 115k</p>
+              </figcaption>
+              <div class="icon-remove-x" title="Remove Item">
+                <button type="submit">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+            </div>
+            <div class="cart-list">
+              <figure class="cart-item">
+                <img src="img/list-3.jpg" alt="Item Image" />
+              </figure>
+              <figcaption class="cart-detail">
+                <p>cart item 03</p>
+                <p>idr. 115k</p>
+              </figcaption>
+              <div class="icon-remove-x" title="Remove Item">
+                <button type="submit">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+            </div>
+            <div class="cart-list">
+              <figure class="cart-item">
+                <img src="img/list-4.jpg" alt="Item Image" />
+              </figure>
+              <figcaption class="cart-detail">
+                <p>cart item 04</p>
+                <p>idr. 115k</p>
+              </figcaption>
+              <div class="icon-remove-x" title="Remove Item">
+                <button type="submit">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+            </div>
+            <div class="cart-list">
+              <figure class="cart-item">
+                <img src="img/list-5.jpg" alt="Item Image" />
+              </figure>
+              <figcaption class="cart-detail">
+                <p>cart item 05</p>
+                <p>idr. 115k</p>
+              </figcaption>
+              <div class="icon-remove-x" title="Remove Item">
+                <button type="submit">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="cart-checkout">
+            <button type="submit">checkout now</button>
+          </div>
+        </div>
+      </div>
+      <!-- icon-cart-navbar & cart-box end -->
+      <!-- icon-bar-menu & side-nav start -->
+      <div class="icon-menu-navbar">
+        <input type="checkbox" />
+        <i class="fa-solid fa-bars"></i>
+        <nav class="side-nav-link">
+          <ul>
+            <a href="#">
+              <li>home</li>
+            </a>
+            <a href="#about">
+              <li>about</li>
+            </a>
+            <a href="#menu">
+              <li>menu</li>
+            </a>
+            <a href="#products">
+              <li>products</li>
+            </a>
+            <a href="#review">
+              <li>review</li>
+            </a>
+            <a href="#contact">
+              <li>contact</li>
+            </a>
+            <a href="#blogs">
+              <li>blogs</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+      <!-- icon-bar-menu & side-nav end -->
+    </div>
+    <!-- icon-navbar end -->
+  </header>
+  <!-- wrapper-navbar end -->
+
+  <!-- jumbotron areas start -->
+  <header class="wrapper-jumbotron">
+    <!-- hero-image start -->
+    <figure class="hero-image">
+      <img src="img/jumbotron.jpg" alt="Hero Image" />
+    </figure>
+    <!-- hero-image end -->
+    <!-- vignete-hero-image start -->
+    <div class="vignete-hero-image"></div>
+    <!-- vignete-hero-image end -->
+    <!-- text-hero-image start -->
+    <figcaption class="text-hero-image">
+      <h1>fresh coffee <br />in the morning</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro perferendis consequatur eum, vel quis neque.
+        Dolor, repellendus perspiciatis.</p>
+      <button type="submit" onclick="window.location.href='#menu'">get it now</button>
+    </figcaption>
+    <!-- text-hero-image end -->
+  </header>
+  <!-- jumbotron areas end -->
+
+  <!-- container for all section element start -->
+  <main class="container">
+    <!-- section about start -->
+    <section id="about">
+      <h2><span>about</span> us</h2>
+      <!-- container of image-about & text-image-about start -->
+      <div class="about-box">
+        <!-- image-about start -->
+        <figure class="image-about">
+          <img src="img/img-about.jpg" alt="image" />
+        </figure>
+        <!-- image-about end -->
+        <!-- text-image-about start -->
+        <figcaption class="text-image-about">
+          <h3>what makes our coffee special ?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem perferendis possimus fugit earum cumque eos
+            perspiciatis delectus maiores repellendus eligendi quibusdam commodi modi, dolorem sed voluptates dolore,
+            repellat
+            aspernatur error!
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint unde nam possimus optio quos natus.</p>
+          <button type="submit" onclick="window.location.href='about.html'">learn more</button>
+        </figcaption>
+        <!-- text-image-about end -->
+      </div>
+      <!-- container of image-about & text-image-about end -->
+    </section>
+    <!-- section about end -->
+
+    <!-- section menu start -->
+    <section id="menu">
+      <h2>our <span>menu</span></h2>
+      <!-- container of menu-card, image-menu, text-image-menu, button start -->
+      <div class="menu-box">
+        <!-- parent of image-menu, text-image-menu, & button start  -->
+        <div class="menu-card">
+          <!-- image-menu start -->
+          <figure class="image-menu">
+            <img src="img/menu-1.jpg" alt="image" />
+          </figure>
+          <!-- image-menu end -->
+          <!-- text-image-menu start -->
+          <figcaption class="text-image-menu">
+            <h3>tasty and healthy</h3>
+            <p>idr. 115k <span>135k</span></p>
+            <button type="submit">add to cart</button>
+          </figcaption>
+          <!-- text-image-menu end -->
+        </div>
+        <!-- parent of image-menu, text-image-menu, & button end  -->
+        <!-- parent of image-menu, text-image-menu, & button start  -->
+        <div class="menu-card">
+          <!-- image-menu start -->
+          <figure class="image-menu">
+            <img src="img/menu-2.jpg" alt="image" />
+          </figure>
+          <!-- image-menu end -->
+          <!-- text-image-menu start -->
+          <figcaption class="text-image-menu">
+            <h3>tasty and healthy</h3>
+            <p>idr. 115k <span>135k</span></p>
+            <button type="submit">add to cart</button>
+          </figcaption>
+          <!-- text-image-menu end -->
+        </div>
+        <!-- parent of image-menu, text-image-menu, & button end  -->
+        <!-- parent of image-menu, text-image-menu, & button start  -->
+        <div class="menu-card">
+          <!-- image-menu start -->
+          <figure class="image-menu">
+            <img src="img/menu-3.jpg" alt="image" />
+          </figure>
+          <!-- image-menu end -->
+          <!-- text-image-menu start -->
+          <figcaption class="text-image-menu">
+            <h3>tasty and healthy</h3>
+            <p>idr. 115k <span>135k</span></p>
+            <button type="submit">add to cart</button>
+          </figcaption>
+          <!-- text-image-menu end -->
+        </div>
+        <!-- parent of image-menu, text-image-menu, & button end  -->
+        <!-- parent of image-menu, text-image-menu, & button start  -->
+        <div class="menu-card">
+          <!-- image-menu start -->
+          <figure class="image-menu">
+            <img src="img/menu-4.jpg" alt="image" />
+          </figure>
+          <!-- image-menu end -->
+          <!-- text-image-menu start -->
+          <figcaption class="text-image-menu">
+            <h3>tasty and healthy</h3>
+            <p>idr. 115k <span>135k</span></p>
+            <button type="submit">add to cart</button>
+          </figcaption>
+          <!-- text-image-menu end -->
+        </div>
+        <!-- parent of image-menu, text-image-menu, & button end  -->
+        <!-- parent of image-menu, text-image-menu, & button start  -->
+        <div class="menu-card">
+          <!-- image-menu start -->
+          <figure class="image-menu">
+            <img src="img/menu-5.jpg" alt="image" />
+          </figure>
+          <!-- image-menu end -->
+          <!-- text-image-menu start -->
+          <figcaption class="text-image-menu">
+            <h3>tasty and healthy</h3>
+            <p>idr. 115k <span>135k</span></p>
+            <button type="submit">add to cart</button>
+          </figcaption>
+          <!-- text-image-menu end -->
+        </div>
+        <!-- parent of image-menu, text-image-menu, & button end  -->
+        <!-- parent of image-menu, text-image-menu, & button start  -->
+        <div class="menu-card">
+          <!-- image-menu start -->
+          <figure class="image-menu">
+            <img src="img/menu-6.jpg" alt="image" />
+          </figure>
+          <!-- image-menu end -->
+          <!-- text-image-menu start -->
+          <figcaption class="text-image-menu">
+            <h3>tasty and healthy</h3>
+            <p>idr. 115k <span>135k</span></p>
+            <button type="submit">add to cart</button>
+          </figcaption>
+          <!-- text-image-menu end -->
+        </div>
+        <!-- parent of image-menu, text-image-menu, & button end  -->
+      </div>
+      <!-- container of menu-card, image-menu, text-image-menu, & button end -->
+    </section>
+    <!-- section menu end -->
+
+    <!-- section products start -->
+    <section id="products">
+      <h2>latest <span>products</span></h2>
+      <!-- container of products-card, icon-products-box, image-products, text-image-products, icon-text-image-products start -->
+      <div class="products-box">
+        <!-- products-card start -->
+        <div class="products-card">
+          <!-- icon-products-box start -->
+          <div class="icon-products-box">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-eye"></i>
+          </div>
+          <!-- icon-products-box end -->
+          <!-- image-products start -->
+          <figure class="image-products">
+            <img src="img/products-1.jpg" alt="image" />
+          </figure>
+          <!-- image-products end -->
+          <!-- text-image-products start -->
+          <figcaption class="text-image-products">
+            <h3>fresh coffee</h3>
+            <!-- icon-text-image-products start -->
+            <div class="icon-text-image-products">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <!-- icon-text-image-products end -->
+            <p>idr. 125k <span>150k</span></p>
+          </figcaption>
+          <!-- text-image-products end -->
+        </div>
+        <!-- products-card end -->
+        <!-- products-card start -->
+        <div class="products-card">
+          <!-- icon-products-box start -->
+          <div class="icon-products-box">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-eye"></i>
+          </div>
+          <!-- icon-products-box end -->
+          <!-- image-products start -->
+          <figure class="image-products">
+            <img src="img/products-1.jpg" alt="image" />
+          </figure>
+          <!-- image-products end -->
+          <!-- text-image-products start -->
+          <figcaption class="text-image-products">
+            <h3>fresh coffee</h3>
+            <!-- icon-text-image-products start -->
+            <div class="icon-text-image-products">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <!-- icon-text-image-products end -->
+            <p>idr. 125k <span>150k</span></p>
+          </figcaption>
+          <!-- text-image-products end -->
+        </div>
+        <!-- products-card end -->
+        <!-- products-card start -->
+        <div class="products-card">
+          <!-- icon-products-box start -->
+          <div class="icon-products-box">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-eye"></i>
+          </div>
+          <!-- icon-products-box end -->
+          <!-- image-products start -->
+          <figure class="image-products">
+            <img src="img/products-1.jpg" alt="image" />
+          </figure>
+          <!-- image-products end -->
+          <!-- text-image-products start -->
+          <figcaption class="text-image-products">
+            <h3>fresh coffee</h3>
+            <!-- icon-text-image-products start -->
+            <div class="icon-text-image-products">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <!-- icon-text-image-products end -->
+            <p>idr. 125k <span>150k</span></p>
+          </figcaption>
+          <!-- text-image-products end -->
+        </div>
+        <!-- products-card end -->
+      </div>
+      <!-- container of products-card, icon-products-box, image-products, text-image-products, icon-text-image-products end -->
+    </section>
+    <!-- section products end -->
+
+    <!-- section review start -->
+    <section id="review">
+      <h2>customer's <span>review</span></h2>
+      <!-- container of review-card, icon-review-box, text-image-review, image-review, icon-text-image-review start -->
+      <div class="review-box">
+        <!-- reiview-card start -->
+        <div class="review-card">
+          <!-- icon-review-box start -->
+          <div class="icon-review-box">
+            <i class="fa-sharp fa-solid fa-quote-left"></i>
+          </div>
+          <!-- icon-review-box end -->
+          <!-- text-image-review start -->
+          <figcaption class="text-image-review">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ullam possimus optio ducimus animi?
+              Cupiditate architecto at dolore suscipit animi nam, pariatur fugit corrupti doloremque?</p>
+          </figcaption>
+          <!-- text-image-review end -->
+          <!-- image-review start -->
+          <figure class="image-review">
+            <img src="img/review-1.jpg" alt="image" />
+          </figure>
+          <!-- image-review end -->
+          <!-- name-image-review start -->
+          <figcaption class="name-image-review">
+            <p>jonathan</p>
+          </figcaption>
+          <!-- name-image-review end -->
+          <!-- icon-text-image-review start -->
+          <div class="icon-text-image-review">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <!-- icon-text-image-review end -->
+        </div>
+        <!-- review-card end -->
+        <!-- reiview-card start -->
+        <div class="review-card">
+          <!-- icon-review-box start -->
+          <div class="icon-review-box">
+            <i class="fa-sharp fa-solid fa-quote-left"></i>
+          </div>
+          <!-- icon-review-box end -->
+          <!-- text-image-review start -->
+          <figcaption class="text-image-review">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ullam possimus optio ducimus animi?
+              Cupiditate architecto at dolore suscipit animi nam, pariatur fugit corrupti doloremque?</p>
+          </figcaption>
+          <!-- text-image-review end -->
+          <!-- image-review start -->
+          <figure class="image-review">
+            <img src="img/review-2.jpg" alt="image" />
+          </figure>
+          <!-- image-review end -->
+          <!-- name-image-review start -->
+          <figcaption class="name-image-review">
+            <p>evelyne</p>
+          </figcaption>
+          <!-- name-image-review end -->
+          <!-- icon-text-image-review start -->
+          <div class="icon-text-image-review">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <!-- icon-text-image-review end -->
+        </div>
+        <!-- review-card end -->
+        <!-- reiview-card start -->
+        <div class="review-card">
+          <!-- icon-review-box start -->
+          <div class="icon-review-box">
+            <i class="fa-sharp fa-solid fa-quote-left"></i>
+          </div>
+          <!-- icon-review-box end -->
+          <!-- text-image-review start -->
+          <figcaption class="text-image-review">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ullam possimus optio ducimus animi?
+              Cupiditate architecto at dolore suscipit animi nam, pariatur fugit corrupti doloremque?</p>
+          </figcaption>
+          <!-- text-image-review end -->
+          <!-- image-review start -->
+          <figure class="image-review">
+            <img src="img/review-3.jpg" alt="image" />
+          </figure>
+          <!-- image-review end -->
+          <!-- name-image-review start -->
+          <figcaption class="name-image-review">
+            <p>claudia</p>
+          </figcaption>
+          <!-- name-image-review end -->
+          <!-- icon-text-image-review start -->
+          <div class="icon-text-image-review">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <!-- icon-text-image-review end -->
+        </div>
+        <!-- review-card end -->
+      </div>
+      <!-- container of review-card, icon-review-box, text-image-review, image-review, icon-text-image-review end -->
+    </section>
+    <!-- section review end -->
+
+    <!-- section contact start -->
+    <section id="contact">
+      <h2><span>contact</span> us</h2>
+      <!-- container of map-contact & form-contact start -->
+      <div class="contact-box">
+        <!-- map-contact start -->
+        <figure class="map-contact">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.112656923319!2d106.78872402917155!3d-6.464455199707704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c275f6d7c437%3A0x1ce774bb9b4e35dc!2sJl.%20Griya%20Citayam%20Asri%2C%20Susukan%2C%20Kecamatan%20Bojonggede%2C%20Kabupaten%20Bogor%2C%20Jawa%20Barat%2016920!5e0!3m2!1sen!2sid!4v1664297569709!5m2!1sen!2sid"
+            style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600"
+            height="450"></iframe>
+        </figure>
+        <!-- map-contact end -->
+        <!-- form-contact start -->
+        <figcaption class="form-contact">
+          <h3>get in touch</h3>
+          <div class="input-group-contact">
+            <div class="name-contact">
+              <button disabled="disabled">
+                <i class="fa-solid fa-user"></i>
+              </button>
+              <input type="text" placeholder="Name" required />
+              <span class="top-text-name">Name</span>
+            </div>
+            <div class="email-contact">
+              <button disabled="disabled">
+                <i class="fa-solid fa-envelope"></i>
+              </button>
+              <input type="email" placeholder="Email" required />
+              <span class="top-text-email">Email</span>
+            </div>
+            <div class="phone-contact">
+              <button disabled="disabled">
+                <i class="fa-solid fa-phone"></i>
+              </button>
+              <input type="tel" placeholder="Phone" required />
+              <span class="top-text-phone">Phone</span>
+            </div>
+          </div>
+          <button type="submit">contact now</button>
+        </figcaption>
+        <!-- form-contact end -->
+      </div>
+      <!-- container of map-contact & form-contact end -->
+    </section>
+    <!-- section contact end -->
+
+    <!-- section blogs start -->
+    <section id="blogs">
+      <h2>our <span>blogs</span></h2>
+      <!-- container of blogs-card, image-blogs, text-image-blogs, & button start -->
+      <div class="blogs-box">
+        <!-- parent of image-blogs, text-image-blogs, & button start  -->
+        <div class="blogs-card">
+          <!-- image-blogs start -->
+          <figure class="image-blogs">
+            <img src="img/blogs-1.jpg" alt="image" />
+          </figure>
+          <!-- image-blogs end -->
+          <!-- text-image-blogs start -->
+          <figcaption class="text-image-blogs">
+            <h3><a href="#">tasty and refreshing coffee</a></h3>
+            <p style="color: var(--special-text-color)">by: admin / 2 june, 2021</p>
+            <p style="margin: 1em auto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, delectus
+              voluptatem ab aspernatur aliquid suscipit?</p>
+            <button type="submit" onclick="window.location.href='blogs.html'">read more</button>
+          </figcaption>
+          <!-- text-image-blogs end -->
+        </div>
+        <!-- parent of image-blogs, text-image-blogs, & button end  -->
+        <!-- parent of image-blogs, text-image-blogs, & button start  -->
+        <div class="blogs-card">
+          <!-- image-blogs start -->
+          <figure class="image-blogs">
+            <img src="img/blogs-2.jpg" alt="image" />
+          </figure>
+          <!-- image-blogs end -->
+          <!-- text-image-blogs start -->
+          <figcaption class="text-image-blogs">
+            <h3><a href="#">tasty and refreshing coffee</a></h3>
+            <p style="color: var(--special-text-color)">by: admin / 2 april, 2022</p>
+            <p style="margin: 1em auto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, delectus
+              voluptatem ab aspernatur aliquid suscipit?</p>
+              <button type="submit" onclick="window.location.href='blogs.html'">read more</button>
+          </figcaption>
+          <!-- text-image-blogs end -->
+        </div>
+        <!-- parent of image-blogs, text-image-blogs, & button end  -->
+        <!-- parent of image-blogs, text-image-blogs, & button start  -->
+        <div class="blogs-card">
+          <!-- image-blogs start -->
+          <figure class="image-blogs">
+            <img src="img/blogs-3.jpg" alt="image" />
+          </figure>
+          <!-- image-blogs end -->
+          <!-- text-image-blogs start -->
+          <figcaption class="text-image-blogs">
+            <h3><a href="#">tasty and refreshing coffee</a></h3>
+            <p style="color: var(--special-text-color)">by: admin / 2 august, 2022</p>
+            <p style="margin: 1em auto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, delectus
+              voluptatem ab aspernatur aliquid suscipit?</p>
+              <button type="submit" onclick="window.location.href='blogs.html'">read more</button>
+          </figcaption>
+          <!-- text-image-blogs end -->
+        </div>
+        <!-- parent of image-blogs, text-image-blogs, & button end  -->
+      </div>
+      <!-- container of blogs-card, image-blogs, text-image-blogs, & button end -->
+    </section>
+    <!-- section blogs start -->
+  </main>
+  <!-- container for all section element end -->
+
+  <!-- wrapper-footer start -->
+  <footer class="wrapper-footer">
+    <!-- footer-credits start -->
+    <div class="footer-credits">
+      <!-- footer-brand-image start -->
+      <figure class="footer-brand-image"><img src="img/brand-logo.png" alt="brand-logo">
+        <!-- footer-brand-text start -->
+        <figcaption class="footer-brand-text">
+          <h2>the <span>coffee</span>beans</h2>
+          <p>coffee & friends</p>
+        </figcaption>
+        <!-- footer-brand-text end -->
+      </figure>
+      <!-- footer-brand-image end -->
+      <!-- footer-credits-address start -->
+      <address class="footer-credits-address">
+        <p>jl. imogiri timur no.11 km.9, bantul</p>
+        <p>yogyakarta, central java - indonesia</p>
+        <button type="submit">subscribe newsletter</button>
+      </address>
+      <!-- footer-credits-address end -->
+    </div>
+    <!-- footer-credits end -->
+
+    <!-- wrapper-footer-profile start -->
+    <div class="wrapper-footer-profile">
+      <!-- footer-credits-company start -->
+      <nav class="footer-credits-company">
+        <h3>company</h3>
+        <ul>
+          <li><a href="#">about us</a></li>
+          <li><a href="#">our services</a></li>
+          <li><a href="#">privacy policy</a></li>
+          <li><a href="#">franchise program</a></li>
+          <li><a href="#">career</a></li>
+        </ul>
+      </nav>
+      <!-- footer-credits-company end -->
+      <!-- footer-credits-help start -->
+      <nav class="footer-credits-help">
+        <h3>get help</h3>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">shipping</a></li>
+          <li><a href="#">returns</a></li>
+          <li><a href="#">order status</a></li>
+          <li><a href="#">payment options</a></li>
+        </ul>
+      </nav>
+      <!-- footer-credits-help end -->
+      <!-- footer-social-media start -->
+      <nav class="footer-social-media">
+        <h3>follow us</h3>
+        <ul>
+          <li><a href="https://web.facebook.com/dediiiach" target="_blank">facebook</a></li>
+          <li><a href="#">twitter</a></li>
+          <li><a href="https://www.instagram.com/dediindra_one/" target="_blank">instagram</a></li>
+          <li><a href="https://www.linkedin.com/in/dedi-indrawan-896b641b3/" target="_blank">linkedIn</a></li>
+          <li><a href="https://www.youtube.com/c/DediIndrawan" target="_blank">youTube</a></li>
+        </ul>
+      </nav>
+      <!-- footer-social-media end -->
+    </div>
+    <!-- wrapper-footer-profile end -->
+  </footer>
+  <!-- wrapper-footer end -->
+
+  <!-- wrapper-copyright start -->
+  <footer class="wrapper-copyright">
+    <!-- footer-copyright start -->
+    <div class="footer-copyright">
+      &copy;2022 <a href="https://linktr.ee/dediindra_one" target="_blank">dedi indrawan</a> | all right reserved.
+    </div>
+    <!-- footer-copyright end -->
+    <!-- footer-back-to-top start -->
+    <div class="footer-back-to-top">
+      <a href="#"><i class="fa-solid fa-chevron-up" id="footer-back-icon"></i></a>
+    </div>
+    <!-- footer-back-to-top end -->
+  </footer>
+  <!-- wrapper-copyright end -->
+</body>
+
+</html>
